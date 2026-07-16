@@ -52,5 +52,3 @@ The following diagram illustrates the complete workflow of the coin classificati
 - Random horizontal flip
 - Random brightness adjustment
 - Random contrast adjustment
-
-...
