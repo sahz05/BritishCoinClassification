@@ -1,0 +1,23 @@
+================================================================================
+ENVIRONMENT INFORMATION
+================================================================================
+
+Environment: Local
+Timestamp: 2025-11-28 00:02:19
+
+SYSTEM:
+  Platform: Windows
+  Python: 3.12.12
+
+LIBRARIES:
+  TensorFlow: 2.19.0
+  Keras: 3.10.0
+  NumPy: 2.0.2
+  Pandas: 2.2.2
+  Matplotlib: 3.10.0
+  Seaborn: 0.13.2
+
+HARDWARE:
+  GPU Available: False
+  CPU Cores: 12 (logical), 10 (physical)
+  Total RAM: 15.73 GB

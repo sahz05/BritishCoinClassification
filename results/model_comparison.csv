@@ -1,0 +1,10 @@
+Metric,ResNet50,InceptionV3
+Test Accuracy (%),100.00,97.98
+Test Loss,0.0066,0.0422
+Training Time (min),10.14,12.36
+Total Parameters,"24,145,926","22,360,998"
+Trainable Parameters,"558,214","558,214"
+Input Size,224 × 224,299 × 299
+Model Size (approx),~98 MB,~92 MB
+Best Val Accuracy (%),100.00,100.00
+Final Train Accuracy (%),99.78,99.78

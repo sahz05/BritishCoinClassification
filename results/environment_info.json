@@ -1,0 +1,19 @@
+{
+    "timestamp": "2025-11-28 00:02:19",
+    "platform": "Windows",
+    "platform_version": "10.0.26100",
+    "python_version": "3.12.12",
+    "tensorflow_version": "2.19.0",
+    "keras_version": "3.10.0",
+    "numpy_version": "2.0.2",
+    "pandas_version": "2.2.2",
+    "matplotlib_version": "3.10.0",
+    "seaborn_version": "0.13.2",
+    "gpu_available": false,
+    "gpu_count": 0,
+    "cpu_count_logical": 12,
+    "cpu_count_physical": 10,
+    "total_memory_gb": 15.730949401855469,
+    "available_memory_gb": 2.6161575317382812,
+    "environment": "Local"
+}

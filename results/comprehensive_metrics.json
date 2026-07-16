@@ -1,0 +1,92 @@
+{
+    "experiment_info": {
+        "environment": "Local",
+        "timestamp": "2025-11-28 00:02:19",
+        "dataset": {
+            "total_images": 660,
+            "num_classes": 6,
+            "class_names": [
+                "1-pound",
+                "10p",
+                "20p",
+                "2pounds",
+                "50p",
+                "5p"
+            ],
+            "train_samples": 462,
+            "val_samples": 99,
+            "test_samples": 99,
+            "class_distribution": {
+                "1-pound": 87,
+                "10p": 132,
+                "20p": 132,
+                "2pounds": 94,
+                "50p": 127,
+                "5p": 88
+            }
+        }
+    },
+    "training_config": {
+        "batch_size": 32,
+        "epochs": 20,
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "loss_function": "sparse_categorical_crossentropy",
+        "data_augmentation": true,
+        "random_seed": 42
+    },
+    "resnet50": {
+        "architecture": {
+            "base_model": "ResNet50",
+            "input_size": "224x224",
+            "total_parameters": 24145926,
+            "trainable_parameters": 558214
+        },
+        "training_results": {
+            "test_loss": 0.006590453442186117,
+            "test_accuracy": 1.0,
+            "final_train_accuracy": 0.9978355169296265,
+            "final_val_accuracy": 1.0,
+            "best_val_accuracy": 1.0,
+            "training_time_minutes": 10.143023947874704
+        },
+        "per_class_accuracy": {
+            "1-pound": 1.0,
+            "10p": 1.0,
+            "20p": 1.0,
+            "2pounds": 1.0,
+            "50p": 1.0,
+            "5p": 1.0
+        }
+    },
+    "inceptionv3": {
+        "architecture": {
+            "base_model": "InceptionV3",
+            "input_size": "299x299",
+            "total_parameters": 22360998,
+            "trainable_parameters": 558214
+        },
+        "training_results": {
+            "test_loss": 0.04218999668955803,
+            "test_accuracy": 0.9797979593276978,
+            "final_train_accuracy": 0.9978355169296265,
+            "final_val_accuracy": 1.0,
+            "best_val_accuracy": 1.0,
+            "training_time_minutes": 12.364320822556813
+        },
+        "per_class_accuracy": {
+            "1-pound": 1.0,
+            "10p": 0.95,
+            "20p": 1.0,
+            "2pounds": 1.0,
+            "50p": 1.0,
+            "5p": 0.9230769230769231
+        }
+    },
+    "comparison": {
+        "accuracy_difference": 2.0202040672302246,
+        "training_time_difference": 2.2212968746821087,
+        "better_accuracy": "ResNet50",
+        "faster_training": "ResNet50"
+    }
+}
