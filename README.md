@@ -53,6 +53,4 @@ The following diagram illustrates the complete workflow of the coin classificati
 - Random brightness adjustment
 - Random contrast adjustment
 
-## Transfer Learning
-
 ...
